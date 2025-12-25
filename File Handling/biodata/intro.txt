@@ -1,0 +1,6 @@
+Name = LAIBA
+Age = 19
+Email = laibaajaz089@gmail.com
+Education = Diploma in Software Engineering
+Institute = Aptech , Gulshan 2 , Karachi
+Hobbies = Reading , Sketching
