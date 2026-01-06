@@ -1,6 +1,6 @@
 <?php
 $error = $_COOKIE['error'] ?? "";
-$success = $_COOKIE['success'] ?? "";
+
 ?>
 
 <!DOCTYPE html>
@@ -122,9 +122,6 @@ $success = $_COOKIE['success'] ?? "";
 
             <p class="error">
                 <?= $error ?? "" ?>
-            </p>
-            <p class="success">
-                <?= $success ?? "" ?>
             </p>
 
             <button class="btn" type="submit">Login</button>

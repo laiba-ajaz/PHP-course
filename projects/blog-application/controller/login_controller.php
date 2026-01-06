@@ -8,7 +8,6 @@ $user = new authentication();
 
 if(!empty($_POST['email']) && !empty($_POST['password'])){
     if($user->login($_POST['email'], $_POST['password'])){
-        setcookie('success', "Successfully logged in", time() + 5, '/');
         header('Location: ../view/main.php');
         exit;
     } else {

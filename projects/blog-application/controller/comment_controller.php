@@ -12,7 +12,7 @@ if (session_status() === PHP_SESSION_NONE) {
   //insert comments into database logic 
 if ($_SERVER['REQUEST_METHOD'] === "POST") {
      
-    if (isset($_POST['add']) && !empty($_POST['comment_text'])) {
+    if (isset($_POST['add_comment']) && !empty($_POST['comment_text'])) {
     $post_id = $_POST['post_id'];
     $user_id = $_SESSION['user_id'];
     $comment_text = $_POST['comment_text'];
