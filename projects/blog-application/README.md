@@ -36,7 +36,7 @@ This is a **Mini Blog Application** where users can:
 
 ## Installation
 1. Clone the repository:
-2. Import the `database.sql` file into your MySQL database.
+2. Import the `blog_application.sql` file into your MySQL database.
 3. Update the `config/Database.php` file with your database credentials.
 4. Place the project in your web server (e.g., XAMPP `htdocs` folder).
 5. Open the project in your browser: `http://localhost/<project-folder>/view/main.php`
